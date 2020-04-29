@@ -1,0 +1,31 @@
+COMPONENTS AND PERIPHERALS
+
+The main components that have been used in our project are as follows:
+
+Hardware components
+
+•	Raspberry Pi 3 (1)
+
+•	Raspberry Pi Camera Module(8MP)
+
+•	Arduino Ultrasonic Sensor (3)
+
+•	Dual H-bridge motor drivers L298(1)
+
+•	Dc motor (2)
+
+•	Breadboard(1)
+
+•	Connectors/wires
+
+•	Power supply(9 Volts)
+
+•	LED(1)
+
+Software Components
+
+OpenCV(Computer vision)
+
+Programming language used
+
+Python 3.5

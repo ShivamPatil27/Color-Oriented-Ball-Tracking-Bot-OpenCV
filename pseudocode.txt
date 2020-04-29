@@ -1,0 +1,32 @@
+Mask_with red(frame):
+Pic1=frame:BGR->HSV
+Mask=pic1(from lower.hsv to higher_hsv)
+Do eroding,dilation
+Return mask
+Find_circle(blob):
+Largest_contour=0;index=0;
+Contours=findcounters();
+
+For x in contours:
+       If(area>Largest_contours):
+      Largest_contour=area;
+If(length(contours)>0)
+          R=cv2.boundCircle();
+Return r,Largest_contours
+
+Frame=TakeFrame();
+
+While(frame is True):
+            Mask_red=mask.withred(frame)          /
+           L=Find_circle(mask_red)
+            x_cord,y_cord,width,height=e
+           
+if(width*height<10)
+                     
+NOT FOUND
+
+Else 
+                    
+ FOUND
+
+ Frame=TakeFrame()
